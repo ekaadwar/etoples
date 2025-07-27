@@ -9,14 +9,11 @@ pipeline{
       steps{
         echo("Hello Build1")
         echo("Hello Build2")
-        echo("Hello Build3")
       }
     }
     stage("Test"){
       steps{
         echo("Hello Test1")
-        echo("Hello Test2")
-        echo("Hello Test3")
       }
     }
     stage("Deploy"){
